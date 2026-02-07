@@ -22,13 +22,13 @@ I care more about **working systems** than theoretical perfection.
 
 ## 🚀 Featured Projects
 
-🔹 **Amazon Price Tracker Bot**  
+**Amazon Price Tracker Bot**  
 Tracks product prices and sends alerts when prices drop.
 
-🔹 **Microlearning Generator**  
+**Microlearning Generator**  
 Generates short notes and flashcards from long educational content.
 
-🔹 **Customer Churn Prediction**  
+**Customer Churn Prediction**  
 Predicts customers at risk of leaving using machine learning.
 
 (Each project has a detailed README explaining the approach.)
