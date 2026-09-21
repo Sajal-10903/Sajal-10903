@@ -1,90 +1,78 @@
 ## 👋 Hi, I'm Sajal Raj
 
-I'm an MCA (AI & Data Science) student who builds **practical machine learning projects** — not just notebooks.
+I'm an MCA (AI & Data Science) graduate who builds **LLM-powered systems on real data pipelines** — not just notebooks.
 
 I focus on:
-- turning raw, messy data into usable datasets  
-- building ML models for clear business and analytical problems  
-- creating end-to-end pipelines instead of isolated experiments  
+
+- retrieval systems that cite their sources
+- turning plain-English questions into validated SQL and answers
+- backend APIs that make model output usable
+- end-to-end pipelines instead of isolated experiments
 
 I prioritize building **reliable working systems** over chasing theoretical perfection.
+
+🌐 [Portfolio](https://sajalraj-portfolio.vercel.app)
 
 ---
 
 ## 🔍 What I Work On
 
-- Data analysis & preprocessing using Python  
-- Machine Learning models for prediction & classification  
-- Recommendation systems & applied NLP projects  
-- Clear evaluation, limitations, and real-world use cases  
+- RAG systems and LLM integration (Gemini, Ollama) with Python and FastAPI
+- Natural-language-to-SQL and anomaly detection on structured data
+- Machine learning models for prediction and classification
+- Data analysis and preprocessing with Python
+- Clear evaluation, limitations, and real-world use cases
 
 ---
 
 ## 🚀 Featured Projects
 
-**Amazon Price Tracker Bot**  
-A Python-based bot that monitors Amazon product prices and sends alerts when prices drop below a target value.
+**[Atlas-RAG](https://github.com/Sajal-10903/Atlas-RAG)**
+RAG service that ingests PDF, DOCX, TXT, Markdown, HTML and CSV files and answers questions with inline source citations, using hybrid retrieval (Qdrant + PostgreSQL full-text search) merged with Reciprocal Rank Fusion.
+`Python` `FastAPI` `Qdrant` `PostgreSQL` `RAG` `Docker`
 
-**Microlearning Generator**  
-Generates short notes and flashcards from long educational content like videos or articles.
+**[ApexScreen AI](https://github.com/Sajal-10903/apexscreen-ai)**
+Role-based technical interview platform. Upload a resume, pick a role track, and get an adaptive interview where every question traces back to a resume item.
+`Python` `Gemini API` `RAG` `ChromaDB` `Sentence-Transformers`
 
-**Customer Churn Prediction**  
-Predicts customers at risk of leaving using machine learning models and behavioral data.
+**[Support Ticket Intelligence](https://github.com/Sajal-10903/support-ticket-intelligence)**
+Converts natural-language questions into validated read-only SQL using a local LLM, and flags anomalous tickets with rules and IQR outlier detection.
+`Python` `Ollama (Llama 3.2)` `FastAPI` `Streamlit` `SQLite`
+
+**[Inventory & Order Management System](https://github.com/Sajal-10903/inventory-manager)** — [Live demo](https://inventory-manager-delta-eight.vercel.app/) · [API docs](https://inventory-manager-r9av.onrender.com/docs)
+Full-stack app where row-level locking prevents overselling, deployed on Vercel and Render.
+`Python` `FastAPI` `React` `PostgreSQL` `Docker`
+
+**More:** [Hybrid Image Caption Generator](https://github.com/Sajal-10903/Image_Caption_Generator) · [Hybrid Fake News Detection](https://github.com/Sajal-10903/Hybrid-Fake-News-Detection-System) · [AI Student Buddy](https://github.com/Sajal-10903/AI-Student-Buddy-App) · [Product Demand Forecasting](https://github.com/Sajal-10903/Product_Demand_Forecasting_ML) · [Customer Churn Prediction](https://github.com/Sajal-10903/CUSTOMER-CHURN-PREDICTION) · [Amazon Price Tracker Bot](https://github.com/Sajal-10903/AmazonPriceTrackerBot) (my first self-built project, 2024)
 
 ---
 
 ## 🛠 Skills & Tools
 
-### Core Programming & ML Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+*Technologies I have used in the projects above.*
 
-- Supervised & Unsupervised ML (classification, regression)  
-- Feature analysis & model evaluation  
+### AI / LLM
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black) ![Qdrant](https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge)
 
----
+- RAG, hybrid retrieval, prompt engineering, NLP
+
+### Machine Learning
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+- Classification, regression, feature analysis & model evaluation
+- Computer vision: YOLOv8, CNN-LSTM captioning (in Image Caption Generator)
+
+### Backend & Databases
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Data Analysis & Visualization
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 
-- Exploratory Data Analysis (EDA)  
-- Trend & comparative analysis  
-- Descriptive statistics  
-
----
-
-### Backend, BI & Databases
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
----
-
-### Computer Vision
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
----
-
-### Tools & Platforms
-![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white)
-![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Excel](https://img.shields.io/badge/MS%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
----
-
-### Analytics Concepts & Academic Tools
-- Data cleaning & preprocessing  
-- Business-oriented data interpretation  
+- Exploratory Data Analysis (EDA), data cleaning & preprocessing
 - WEKA (academic exposure)
+
+### Frontend & Tools
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -92,12 +80,13 @@ Predicts customers at risk of leaving using machine learning models and behavior
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajal-raj-456b31252)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssajalraj2003.sr@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sajalraj-portfolio.vercel.app)
 
 ---
 
 ## 🎯 Current Goal
 
-To strengthen my foundation in **data analytics and machine learning** by building well-structured, real-world projects with clear problem statements and meaningful insights.
+Open to **AI/ML, LLM and backend engineering roles**, where I can build and ship AI systems on real data.
 
 ## 📫 Connect
 
