@@ -4,7 +4,9 @@
 
 I'm an MCA graduate specializing in **Artificial Intelligence & Data Science**, focused on building practical AI systems that connect **LLMs, data, retrieval, and backend services** into usable applications.
 
-I enjoy working on **RAG systems, AI agents, LLM-powered applications, NLP, machine learning, and Python backend development** — with an emphasis on building reliable, end-to-end systems rather than isolated experiments.
+I enjoy working on **RAG systems, LLM-powered applications, NLP, machine learning, and Python backend development** — with an emphasis on building reliable, end-to-end systems rather than isolated experiments.
+
+🌐 **Portfolio:** [sajalraj-portfolio.vercel.app](https://sajalraj-portfolio.vercel.app/)
 
 ---
 
@@ -12,9 +14,9 @@ I enjoy working on **RAG systems, AI agents, LLM-powered applications, NLP, mach
 
 - **LLM-powered applications** using Ollama and Gemini
 - **RAG & Document Intelligence** systems with vector and hybrid retrieval
-- **AI Agents** and intelligent automation workflows
 - **Natural Language → SQL** applications for structured data
-- **Python backend services** and REST APIs using FastAPI & Flask
+- **Python backend services** and REST APIs using FastAPI
+- **Full-stack applications** with React and PostgreSQL, deployed and containerized with Docker
 - **Machine Learning** systems for classification, regression and anomaly detection
 - **Data processing & analysis** using Pandas, NumPy and SQL
 
@@ -22,7 +24,7 @@ I enjoy working on **RAG systems, AI agents, LLM-powered applications, NLP, mach
 
 ## ⭐ Featured Projects
 
-### 🔎 Atlas RAG — Document Q&A & Research Agent
+### 🔎 [Atlas RAG — Document Q&A & Research Agent](https://github.com/Sajal-10903/Atlas-RAG)
 
 A RAG-based research system that processes documents and answers questions with **inline source citations**.
 
@@ -31,57 +33,95 @@ A RAG-based research system that processes documents and answers questions with 
 - Semantic retrieval using **Qdrant**
 - PostgreSQL full-text search
 - Hybrid retrieval using **Reciprocal Rank Fusion (RRF)**
-- FastAPI-based backend
-- Source-grounded responses
+- Research-agent endpoint that generates structured reports
+- FastAPI backend, Docker Compose setup
 
-**Tech:** Python · FastAPI · Qdrant · PostgreSQL · RAG
+**Tech:** Python · FastAPI · Qdrant · PostgreSQL · RAG · Docker · Alembic
 
 ---
 
-### 🤖 Support Ticket Intelligence
+### 🎯 [ApexScreen AI — Role-Based Technical Interview Platform](https://github.com/Sajal-10903/apexscreen-ai)
+
+An adaptive interview platform: upload a resume, choose a role track, and get a grounded interview where every question traces back to an item on the resume.
+
+**Highlights:**
+- Resume parsing and signal extraction from PDFs
+- Role tracks for AI/ML Engineer, Backend Engineer and Data Scientist
+- RAG over a curated knowledge base using vector retrieval
+- Multi-dimension rubric scoring of answers
+- Interactive analytics dashboard, retry and early-termination flows
+
+**Tech:** Python · Gemini API · RAG · ChromaDB · Sentence-Transformers · PyMuPDF · Recharts
+
+---
+
+### 🤖 [Support Ticket Intelligence](https://github.com/Sajal-10903/support-ticket-intelligence)
 
 An LLM-powered system for querying and analyzing support-ticket data using natural language.
 
 **Highlights:**
-- Natural Language → SQL using **Ollama / Llama**
-- Structured data analysis using Pandas
-- Detection of stale high-priority tickets
-- Identification of abnormal resolution times
-- FastAPI backend
-- Streamlit interface
+- Natural Language → SQL using **Ollama / Llama 3.2**, running fully locally
+- SQL validation: SELECT-only, single statement, destructive keywords blocked
+- Detection of stale high-priority tickets and abnormal resolution times
+- FastAPI backend and Streamlit interface
 
-**Tech:** Python · Ollama · LLM · FastAPI · Pandas · Streamlit
+**Tech:** Python · Ollama · LLM · FastAPI · SQLite · Pandas · Streamlit
 
 ---
 
-### 🎓 AI Student Buddy
+### 📦 [Inventory & Order Management System](https://github.com/Sajal-10903/inventory-manager)
 
-An AI-powered adaptive learning platform designed to generate personalized learning content and quizzes.
+A full-stack inventory and order system with real-time stock validation, deployed and containerized.
 
 **Highlights:**
-- AI-generated quizzes
-- Personalized learning workflows
-- Gemini API integration
-- PostgreSQL-backed data storage
-- REST API architecture
+- Row-level locking (`SELECT ... FOR UPDATE`) prevents overselling
+- Database `CHECK` constraints stop stock from going negative
+- Docker Compose for local setup
+- Deployed on Vercel (frontend) and Render (API)
 
-**Tech:** Gemini API · Python · PostgreSQL · REST APIs · Pandas
+🔗 [Live demo](https://inventory-manager-delta-eight.vercel.app/) · [API docs](https://inventory-manager-r9av.onrender.com/docs)
+
+**Tech:** Python · FastAPI · React · PostgreSQL · Docker
 
 ---
 
-### 🖼️ Hybrid Image Caption Generator
+### 🖼️ [Hybrid Image Caption Generator](https://github.com/Sajal-10903/Image_Caption_Generator)
 
 A computer-vision and multimodal AI application combining object detection, image captioning and contextual generation.
 
 **Highlights:**
 - YOLOv8 object detection
-- Custom VGG16 + LSTM captioning model
+- Custom VGG16 + LSTM captioning model trained from scratch
 - Beam-search based caption generation
 - Salesforce BLIP integration
-- Gemini-powered bilingual contextual captions
+- Gemini-powered bilingual (English / Hindi) contextual captions
 - Streamlit interface
 
 **Tech:** Python · YOLOv8 · TensorFlow · BLIP · Gemini · Streamlit
+
+---
+
+### 🎓 [AI Student Buddy](https://github.com/Sajal-10903/AI-Student-Buddy-App)
+
+An AI-powered adaptive learning platform that generates quizzes and study material, and adjusts difficulty to the learner.
+
+**Highlights:**
+- AI-generated quizzes, PDF summaries and flashcards
+- Gemini API integration
+- JWT authentication and REST API architecture
+- PostgreSQL-backed data storage
+
+**Tech:** TypeScript · Node.js · Express · React · PostgreSQL · Gemini API
+
+---
+
+### 📂 More Projects
+
+- [Hybrid Fake News Detection System](https://github.com/Sajal-10903/Hybrid-Fake-News-Detection-System) — Logistic Regression plus live web verification *(Python, Scikit-learn, NLTK, Streamlit)*
+- [Product Demand Forecasting](https://github.com/Sajal-10903/Product_Demand_Forecasting_ML) — Linear Regression vs Random Forest on retail sales data
+- Analytics case studies: [Supply Chain Delivery](https://github.com/Sajal-10903/Supply_Chain_Delivery_Analysis) · [E-commerce Pricing](https://github.com/Sajal-10903/Ecommerce_Pricing_Analysis) · [HR Attrition](https://github.com/Sajal-10903/HR_Attrition_Analysis) · [Customer Churn](https://github.com/Sajal-10903/CUSTOMER-CHURN-PREDICTION)
+- [Amazon Price Tracker Bot](https://github.com/Sajal-10903/AmazonPriceTrackerBot) — my first self-built project (2024)
+- [Microlearning Generator](https://github.com/Sajal-10903/MicrolearningGenerator) — flashcards and quizzes from videos, articles or text (2025)
 
 ---
 
@@ -94,7 +134,7 @@ A computer-vision and multimodal AI application combining object detection, imag
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </a>
 <a href="https://ai.google.dev/" target="_blank">
-<img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
 </a>
 <a href="https://ollama.com/" target="_blank">
 <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
@@ -102,16 +142,13 @@ A computer-vision and multimodal AI application combining object detection, imag
 <a href="https://huggingface.co/" target="_blank">
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 </a>
-<a href="https://www.tensorflow.org/" target="_blank">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</a>
 </p>
 
-**Focus:** LLM Integration · Prompt Engineering · RAG · AI Agents · NLP · Generative AI · Transformers
+**Focus:** LLM Integration · Prompt Engineering · RAG · NLP · Generative AI · Transformers
 
 ---
 
-### 🧠 Machine Learning
+### 🧠 Machine Learning & Computer Vision
 
 <p align="left">
 <a href="https://scikit-learn.org/" target="_blank">
@@ -120,31 +157,43 @@ A computer-vision and multimodal AI application combining object detection, imag
 <a href="https://www.tensorflow.org/" target="_blank">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </a>
+<a href="https://www.ultralytics.com/" target="_blank">
+<img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge" />
+</a>
 </p>
 
-**Focus:** Classification · Regression · Feature Engineering · Anomaly Detection · Model Evaluation · Supervised & Unsupervised Learning
+**Focus:** Classification · Regression · Feature Engineering · Anomaly Detection · Model Evaluation · Object Detection · Image Captioning
 
 ---
 
-### ⚙️ Backend & APIs
+### ⚙️ Backend, Databases & Retrieval
 
 <p align="left">
 <a href="https://fastapi.tiangolo.com/" target="_blank">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </a>
-<a href="https://flask.palletsprojects.com/" target="_blank">
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+<a href="https://www.postgresql.org/" target="_blank">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </a>
-<a href="https://www.postman.com/" target="_blank">
-<img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<a href="https://www.sqlite.org/" target="_blank">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</a>
+<a href="https://qdrant.tech/" target="_blank">
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge" />
+</a>
+<a href="https://www.trychroma.com/" target="_blank">
+<img src="https://img.shields.io/badge/ChromaDB-5A45FF?style=for-the-badge" />
+</a>
+<a href="https://www.docker.com/" target="_blank">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </a>
 </p>
 
-**Focus:** FastAPI · Flask · REST APIs · Pydantic · Backend Development · API Integration
+**Focus:** FastAPI · REST APIs · Backend Development · API Integration · Vector Search · Hybrid Retrieval · Full-Text Search
 
 ---
 
-### 📊 Data & Analytics
+### 📊 Data, Frontend & Tools
 
 <p align="left">
 <a href="https://pandas.pydata.org/" target="_blank">
@@ -153,82 +202,30 @@ A computer-vision and multimodal AI application combining object detection, imag
 <a href="https://numpy.org/" target="_blank">
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
 </a>
-<a href="https://www.mysql.com/" target="_blank">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<a href="https://react.dev/" target="_blank">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 </a>
-<a href="https://www.r-project.org/" target="_blank">
-<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<a href="https://streamlit.io/" target="_blank">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 </a>
-</p>
-
-**Focus:** Data Cleaning · EDA · Data Processing · SQL Querying · Structured Data Analysis · Descriptive Statistics
-
----
-
-### 🗄️ Databases & Retrieval
-
-<p align="left">
-<a href="https://www.postgresql.org/" target="_blank">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</a>
-<a href="https://qdrant.tech/" target="_blank">
-<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" />
-</a>
-<a href="https://www.trychroma.com/" target="_blank">
-<img src="https://img.shields.io/badge/ChromaDB-5A45FF?style=for-the-badge&logo=databricks&logoColor=white" />
-</a>
-</p>
-
-**Focus:** PostgreSQL · Vector Search · Semantic Retrieval · Hybrid Retrieval · Full-Text Search
-
----
-
-### 👁️ Computer Vision
-
-<p align="left">
-<a href="https://opencv.org/" target="_blank">
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-</a>
-<a href="https://www.ultralytics.com/" target="_blank">
-<img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logo=yolo&logoColor=white" />
-</a>
-<a href="https://www.tensorflow.org/" target="_blank">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</a>
-</p>
-
-**Focus:** Object Detection · Image Captioning · CNNs · Computer Vision · Multimodal AI
-
----
-
-### 🧰 Tools & Platforms
-
-<p align="left">
 <a href="https://git-scm.com/" target="_blank">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </a>
 <a href="https://github.com/" target="_blank">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="https://streamlit.io/" target="_blank">
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</a>
-<a href="https://aws.amazon.com/" target="_blank">
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-</a>
 </p>
+
+**Focus:** Data Cleaning · EDA · SQL Querying · Structured Data Analysis · Descriptive Statistics · Jupyter Notebooks
 
 ---
 
 ## 🎯 Current Focus
 
-I'm currently focused on building more **production-oriented AI systems**, particularly around:
+Building LLM- and retrieval-based systems with Python and FastAPI, and open to **AI/ML, LLM and backend engineering roles**.
 
 - LLM-powered applications
 - Retrieval-Augmented Generation (RAG)
-- AI agent architectures
-- Retrieval and answer quality
-- LLM application reliability
 - Python backend engineering
 - Data-driven AI systems
 
@@ -237,18 +234,9 @@ I'm currently focused on building more **production-oriented AI systems**, parti
 ## 📜 Certifications & Experience
 
 - **AWS Certified Cloud Practitioner**
-- Tata — Data Visualization Job Simulation
-- Deloitte Australia — Data Analytics Job Simulation
-- EY — Technology Risk Job Simulation
-
----
-
-## 📈 GitHub Activity
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Sajal-10903&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajal-10903&layout=compact&theme=transparent&hide_border=true" height="170"/>
-</p>
+- Tata — Data Visualization Job Simulation (Forage)
+- Deloitte Australia — Data Analytics Job Simulation (Forage)
+- EY — Technology Risk Job Simulation (Forage)
 
 ---
 
